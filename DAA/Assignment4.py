@@ -1,4 +1,4 @@
-# Dynamic Programming
+# Dynamic Programmings
 # Returns the maximum profit that can be stored by the bag
 def knapSack(capacity, wt, profit, n):
     K = [[0 for x in range(capacity + 1)] for x in range(n + 1)]  # Matrix to store results
